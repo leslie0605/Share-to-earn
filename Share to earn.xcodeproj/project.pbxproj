@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B44489B2AAC34E8007B2495 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44489A2AAC34E8007B2495 /* ImageView.swift */; };
 		1B98EC202AAC1A1D00AAEB2E /* Share_to_earnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98EC1F2AAC1A1D00AAEB2E /* Share_to_earnApp.swift */; };
 		1B98EC222AAC1A1D00AAEB2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98EC212AAC1A1D00AAEB2E /* ContentView.swift */; };
 		1B98EC242AAC1A1E00AAEB2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B98EC232AAC1A1E00AAEB2E /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B44489A2AAC34E8007B2495 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		1B98EC1C2AAC1A1D00AAEB2E /* Share to earn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Share to earn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B98EC1F2AAC1A1D00AAEB2E /* Share_to_earnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share_to_earnApp.swift; sourceTree = "<group>"; };
 		1B98EC212AAC1A1D00AAEB2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				1B98EC1F2AAC1A1D00AAEB2E /* Share_to_earnApp.swift */,
 				1B98EC212AAC1A1D00AAEB2E /* ContentView.swift */,
 				1B98EC232AAC1A1E00AAEB2E /* Assets.xcassets */,
+				1B44489A2AAC34E8007B2495 /* ImageView.swift */,
 				1B98EC252AAC1A1E00AAEB2E /* Preview Content */,
 			);
 			path = "Share to earn";
@@ -215,6 +218,9 @@
 				Base,
 			);
 			mainGroup = 1B98EC132AAC1A1D00AAEB2E;
+			packageReferences = (
+				1B44489C2AAC4551007B2495 /* XCRemoteSwiftPackageReference "Share-to-earn" */,
+			);
 			productRefGroup = 1B98EC1D2AAC1A1D00AAEB2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B44489B2AAC34E8007B2495 /* ImageView.swift in Sources */,
 				1B98EC222AAC1A1D00AAEB2E /* ContentView.swift in Sources */,
 				1B98EC202AAC1A1D00AAEB2E /* Share_to_earnApp.swift in Sources */,
 			);
@@ -577,6 +584,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B44489C2AAC4551007B2495 /* XCRemoteSwiftPackageReference "Share-to-earn" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/leslie0605/Share-to-earn.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 1B98EC142AAC1A1D00AAEB2E /* Project object */;
 }
