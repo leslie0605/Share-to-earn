@@ -1,2 +1,2 @@
 # Share-to-earn
-A hackathon project
+A hackathon project developed using SwiftUI
